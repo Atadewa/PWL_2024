@@ -28,3 +28,7 @@ Route::get('/world', function(){
 Route::get('/about', function(){
     return '2341720174, Aditya Atadewa';
 });
+
+Route::get('/user/{name}', function($name){
+    return 'Nama saya ' . $name;
+});
