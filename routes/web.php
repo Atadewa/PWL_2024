@@ -29,7 +29,7 @@ Route::get('/about', function(){
     return '2341720174, Aditya Atadewa';
 });
 
-Route::get('/user/{name?}', function($name = null){
+Route::get('/user/{name?}', function($name = 'John'){
     return 'Nama saya ' . $name;
 });
 
